@@ -1,0 +1,4 @@
+chunking_config,top_1_accuracy,top_3_accuracy
+large_chunks,1.0,1.0
+medium_chunks,1.0,1.0
+small_chunks,1.0,1.0
