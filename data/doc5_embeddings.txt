@@ -1,0 +1,9 @@
+Embeddings and Semantic Search
+
+Embeddings are numerical vector representations of text. They are used to represent the meaning of words, sentences, paragraphs, or documents in a vector space.
+
+In semantic search, a query and a document chunk are converted into vectors. The system then measures the similarity between the query vector and the document vectors. Chunks with high similarity scores are considered more relevant to the query.
+
+Unlike keyword search, semantic search can retrieve relevant results even when the exact query words do not appear in the document. For example, a query about "car repair" may retrieve a document about "vehicle maintenance" because the meanings are related.
+
+Embeddings are commonly used in RAG systems because they allow the retriever to find semantically relevant context for the language model.
