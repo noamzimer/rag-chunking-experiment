@@ -1,0 +1,9 @@
+Chunking in RAG Systems
+
+Chunking is the process of dividing long documents into smaller text segments. In RAG systems, chunking is important because retrieval is usually performed over chunks rather than entire documents.
+
+Small chunks may give more focused and precise results, but they can sometimes lose important context. Large chunks may preserve more context, but they can also include irrelevant information and reduce retrieval precision.
+
+Overlap is often used between chunks in order to avoid losing information at chunk boundaries. For example, if a paragraph is split between two chunks, overlap can help keep related sentences together.
+
+Choosing the right chunk size is an experimental decision. A good chunking strategy depends on the document type, the length of the text, the type of questions, and the retrieval method.
