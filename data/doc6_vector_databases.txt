@@ -1,0 +1,9 @@
+Vector Databases
+
+A vector database is a system designed to store and search vector embeddings efficiently. In RAG systems, vector databases are often used to store embeddings of document chunks.
+
+When a user asks a question, the question is also converted into an embedding. The vector database searches for the closest chunk embeddings using similarity measures such as cosine similarity or Euclidean distance.
+
+Vector databases are useful when working with large collections of documents, because they support fast similarity search. Examples of vector database tools include FAISS, Chroma, Pinecone, Weaviate, and Milvus.
+
+The choice of vector database can affect retrieval speed, scalability, and system complexity. However, for small academic experiments, simple in-memory vector search can also be enough.
