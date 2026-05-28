@@ -1,1 +1,9 @@
+Information Retrieval
 
+Information retrieval is the process of finding relevant information from a large collection of documents. Search engines are a common example of information retrieval systems.
+
+A typical information retrieval system includes preprocessing, indexing, query processing, retrieval, and ranking. During preprocessing, the system may perform tokenization, case folding, stop word removal, and stemming.
+
+An inverted index is a common data structure used in information retrieval. It maps each term to the documents in which the term appears. This allows the system to quickly find candidate documents for a query.
+
+Documents can be ranked using different methods. In the vector space model, documents and queries are represented as vectors. Similarity can be measured using cosine similarity. Terms may be weighted using TF-IDF, where frequent terms in a document get higher weight, but common terms across many documents get lower weight.
