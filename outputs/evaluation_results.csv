@@ -1,0 +1,16 @@
+question,expected_file,chunking_config,top_1_file,top_1_correct,top_3_files,top_3_correct
+What is Retrieval-Augmented Generation?,doc3_rag.txt,small_chunks,doc3_rag.txt,True,"doc3_rag.txt, doc3_rag.txt, doc2_information_retrieval.txt",True
+What is Retrieval-Augmented Generation?,doc3_rag.txt,medium_chunks,doc3_rag.txt,True,"doc3_rag.txt, doc2_information_retrieval.txt, doc4_chunking.txt",True
+What is Retrieval-Augmented Generation?,doc3_rag.txt,large_chunks,doc3_rag.txt,True,"doc3_rag.txt, doc3_rag.txt, doc2_information_retrieval.txt",True
+Why is chunking important in RAG systems?,doc4_chunking.txt,small_chunks,doc4_chunking.txt,True,"doc4_chunking.txt, doc3_rag.txt, doc3_rag.txt",True
+Why is chunking important in RAG systems?,doc4_chunking.txt,medium_chunks,doc4_chunking.txt,True,"doc4_chunking.txt, doc3_rag.txt, doc3_rag.txt",True
+Why is chunking important in RAG systems?,doc4_chunking.txt,large_chunks,doc4_chunking.txt,True,"doc4_chunking.txt, doc3_rag.txt, doc5_embeddings.txt",True
+What is the role of embeddings in semantic search?,doc5_embeddings.txt,small_chunks,doc5_embeddings.txt,True,"doc5_embeddings.txt, doc5_embeddings.txt, doc6_vector_databases.txt",True
+What is the role of embeddings in semantic search?,doc5_embeddings.txt,medium_chunks,doc5_embeddings.txt,True,"doc5_embeddings.txt, doc5_embeddings.txt, doc6_vector_databases.txt",True
+What is the role of embeddings in semantic search?,doc5_embeddings.txt,large_chunks,doc5_embeddings.txt,True,"doc5_embeddings.txt, doc6_vector_databases.txt, doc5_embeddings.txt",True
+How does an inverted index help in information retrieval?,doc2_information_retrieval.txt,small_chunks,doc2_information_retrieval.txt,True,"doc2_information_retrieval.txt, doc2_information_retrieval.txt, doc3_rag.txt",True
+How does an inverted index help in information retrieval?,doc2_information_retrieval.txt,medium_chunks,doc2_information_retrieval.txt,True,"doc2_information_retrieval.txt, doc3_rag.txt, doc4_chunking.txt",True
+How does an inverted index help in information retrieval?,doc2_information_retrieval.txt,large_chunks,doc2_information_retrieval.txt,True,"doc2_information_retrieval.txt, doc3_rag.txt, doc3_rag.txt",True
+What is a vector database used for?,doc6_vector_databases.txt,small_chunks,doc6_vector_databases.txt,True,"doc6_vector_databases.txt, doc6_vector_databases.txt, doc6_vector_databases.txt",True
+What is a vector database used for?,doc6_vector_databases.txt,medium_chunks,doc6_vector_databases.txt,True,"doc6_vector_databases.txt, doc6_vector_databases.txt, doc5_embeddings.txt",True
+What is a vector database used for?,doc6_vector_databases.txt,large_chunks,doc6_vector_databases.txt,True,"doc6_vector_databases.txt, doc5_embeddings.txt, doc6_vector_databases.txt",True
