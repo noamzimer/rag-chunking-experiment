@@ -1,1 +1,9 @@
+Machine Learning
 
+Machine learning is a field of artificial intelligence that focuses on algorithms that learn patterns from data. Instead of being explicitly programmed with fixed rules, machine learning systems use examples to improve their performance over time.
+
+A common example is email spam detection. The system learns from many examples of spam and non-spam emails, and then predicts whether a new email is likely to be spam.
+
+There are several major types of machine learning. Supervised learning uses labeled data, where each training example includes the correct answer. Unsupervised learning finds patterns in data without labels. Reinforcement learning trains an agent to make decisions by receiving rewards or penalties.
+
+Machine learning is used in search engines, recommendation systems, fraud detection, medical diagnosis, natural language processing, and computer vision. The quality of the data strongly affects the quality of the model.
